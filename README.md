@@ -133,6 +133,9 @@ Please, whenever possible, include a standalone executable (which depends only o
 ### ERP
 - Raisim adds a spring element to mitigate numerical errors. If your system becomes unstable, it is most likely that it is due to the Error Reduction Parameter (ERP). You can set it using raisim::World::setERP()
 
+### Configuration XML
+You can initialize world by configuration XML. See [this](https://github.com/leggedrobotics/raisimLib/wiki/Configuration-XML) for more details. 
+
 ## How to cite
 The contact related algorithms are published in the below article 
 
